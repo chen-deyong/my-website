@@ -23,3 +23,11 @@ jobs:
 
       - name: Run build
         run: npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          # ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages  # 如果你使用gh-pages作为你的pages分支
+          FOLDER: build  # 更改为你的构建输出文件夹
+          # BUILD_SCRIPT: build  # 更改为你的构建命令
