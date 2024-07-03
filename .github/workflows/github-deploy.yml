@@ -31,4 +31,3 @@ jobs:
           folder: build
           # 提交分支名
           branch: static-pages
-
