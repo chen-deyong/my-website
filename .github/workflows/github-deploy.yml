@@ -25,10 +25,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          npm run gh-deploy -- -r https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./build  # 假设构建输出目录是 dist
