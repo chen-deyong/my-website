@@ -24,7 +24,7 @@ jobs:
       - name: Run build
         run: npm run build
 
-       - name: Deploy
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           # 项目配置的打包目录名称
