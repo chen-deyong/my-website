@@ -24,10 +24,10 @@ jobs:
       - name: Run build
         run: npm run build
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
-        with:
-          # 项目配置的打包目录名称
-          folder: build
-          # 提交分支名
-          branch: static-pages
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        env:
+          # ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages  # 如果你使用gh-pages作为你的pages分支
+          FOLDER: build  # 更改为你的构建输出文件夹
+          BUILD_SCRIPT: build  # 更改为你的构建命令
