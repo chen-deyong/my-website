@@ -1,4 +1,4 @@
-name: Deploy Blog1
+name: Deploy Blog
 
 on:
   push:

@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: '我的地盘',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -80,7 +80,7 @@ const config = {
           },
           { to: '/blog', label: '博客', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/chen-deyong/my-website',
             label: 'GitHub',
             position: 'right',
           },
