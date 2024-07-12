@@ -1,4 +1,13 @@
-# CSS 属性计算过程
+---
+slug: CSS 属性计算过程
+title: CSS 属性计算过程
+authors:
+  name: chen-deyong
+  title: 个人开发者
+  url: https://github.com/chen-deyong
+  image_url: https://github.com/chen-deyong.png
+tags: [scc,前端]
+---
 
 你是否了解 CSS 的属性计算过程呢？
 
