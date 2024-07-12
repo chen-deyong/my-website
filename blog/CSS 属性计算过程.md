@@ -1,11 +1,7 @@
 ---
 slug: CSS 属性计算过程
 title: CSS 属性计算过程
-authors:
-  name: chen-deyong
-  title: 个人开发者
-  url: https://github.com/chen-deyong
-  image_url: https://github.com/chen-deyong.png
+authors: cdy
 tags: [css,前端]
 ---
 

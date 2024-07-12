@@ -1,11 +1,7 @@
 ---
 slug: 你不知道的 CSS 之包含块
 title: 你不知道的 CSS 之包含块
-authors:
-  name: chen-deyong
-  title: 个人开发者
-  url: https://github.com/chen-deyong
-  image_url: https://github.com/chen-deyong.png
+authors: cdy
 tags: [css,前端]
 ---
 

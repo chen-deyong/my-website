@@ -32,6 +32,22 @@ const config = {
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['en', 'zh-Hans'],
+    localeConfigs: {
+      // en: {
+      //   label: 'English',
+      //   direction: 'ltr',
+      //   htmlLang: 'en-US',
+      //   calendar: 'gregory',
+      //   path: 'en',
+      // },
+      // 'zh-Hans': {
+      //   label: '简体中文',
+      //   direction: 'rtl',
+      //   htmlLang: 'fa-IR',
+      //   calendar: 'persian',
+      //   path: 'fa',
+      // },
+    },
   },
 
   presets: [
