@@ -6,7 +6,7 @@ authors:
   title: 个人开发者
   url: https://github.com/chen-deyong
   image_url: https://github.com/chen-deyong.png
-tags: [scc,前端]
+tags: [css,前端]
 ---
 
 你是否了解 CSS 的属性计算过程呢？

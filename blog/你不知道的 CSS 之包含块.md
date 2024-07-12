@@ -6,7 +6,7 @@ authors:
   title: 个人开发者
   url: https://github.com/chen-deyong
   image_url: https://github.com/chen-deyong.png
-tags: [scc,前端]
+tags: [css,前端]
 ---
 
 一说到 CSS 盒模型，这是很多小伙伴耳熟能详的知识，甚至有的小伙伴还能说出 border-box 和 content-box 这两种盒模型的区别。
